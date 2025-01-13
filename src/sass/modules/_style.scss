@@ -1,0 +1,21 @@
+@import "./section_gros_contenant";
+@import "./section_petits_contenants";
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: #3394E3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenant{
+    border: #124EC5 solid 2px;
+
+}
