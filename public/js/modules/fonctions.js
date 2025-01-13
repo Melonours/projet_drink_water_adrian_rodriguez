@@ -21,6 +21,8 @@ function verreFilled(e){
     }else if(check == false){
         e.target.classList.remove("filled")
         e.target.classList.add("empty")
+        console.log(check);
+        
     }
 }
 for (let i = 0; i < verres.length; i++) {
