@@ -11988,12 +11988,14 @@ textarea.form-control-lg {
   height: 300px;
   width: 150px;
   border-radius: 0px 0px 40px 40px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #gros_contenant #carafe #empty {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12001,6 +12003,16 @@ textarea.form-control-lg {
 }
 #gros_contenant #carafe #empty span {
   font-weight: bold;
+  font-size: 20px;
+}
+#gros_contenant #carafe #filled {
+  width: 100%;
+  background-color: #69B2F7;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #petits_contenants h3, #petits_contenants .h3 {
