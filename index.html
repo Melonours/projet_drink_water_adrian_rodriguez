@@ -15,26 +15,48 @@
             <h3>
                 Goal : 2 Liters
             </h3>
-            <div id="carafe contenant">
-                <div id="empty"><span>2L</span> Remained</div>
-                <div id="filled"></div>
+            <div class="empty contenant mb-4" id="carafe">
+                <div id="empty" style="height: 100%"><span>2L</span> Remained</div>
+                <div id="filled" class="d-none text-center">0%</div>
             </div>
         </section>
         <section id="petits_contenants">
             <h3>
                 Select how many glasses of water that you have drank
             </h3>
-            <div id="verres">
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
-                <div class="verre contenant">250 ml</div>
+            <div id="verres" class="container">
+                <div class="row gap-1 justify-content-center my-2 gap-2">
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                </div>
+                <div class="row gap-1 justify-content-center my-2 gap-2">
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                    <div class="verre contenant empty p-0 col-3 text-center d-flex flex-column justify-content-center align-content-center">
+                        250 <br>ml
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    <script src="./public/js/main.js" type="module"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

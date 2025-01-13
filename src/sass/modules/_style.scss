@@ -9,13 +9,25 @@
 
 body{
     background-color: #3394E3;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contenant{
-    border: #124EC5 solid 2px;
+    border: #124EC5 solid 5px;
+}
 
+.empty{
+    background-color: #FEFEFE;
+    color: #184EC7;
+}
+
+.filled{
+    width: 50px;
+    height: 100px;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 12px;
+    color: white;
+    background: #69B2F7;
 }
